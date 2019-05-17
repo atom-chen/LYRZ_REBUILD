@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "7fad1209-0aaf-440b-861f-d30813e63138",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "image_enemySkillProgress": {
+      "ver": "1.0.3",
+      "uuid": "ad5552aa-3c3a-4765-8879-1076697b1430",
+      "rawTextureUuid": "7fad1209-0aaf-440b-861f-d30813e63138",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 6,
+      "trimY": 6,
+      "width": 41,
+      "height": 44,
+      "rawWidth": 54,
+      "rawHeight": 57,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

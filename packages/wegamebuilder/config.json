@@ -1,0 +1,5 @@
+{
+    "subpackage": true,
+    "obfuscate": false,
+    "compressImage": true
+}

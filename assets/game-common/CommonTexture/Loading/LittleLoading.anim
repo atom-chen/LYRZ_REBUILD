@@ -1,0 +1,78 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "LittleLoading",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.75,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "481d6c11-0f4c-4ef8-b29d-c8ea6a9419d2"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "rotation": [
+        {
+          "frame": 0,
+          "value": 0,
+          "curve": "constant"
+        },
+        {
+          "frame": 0.08333333333333333,
+          "value": -40,
+          "curve": "constant"
+        },
+        {
+          "frame": 0.16666666666666666,
+          "value": -80,
+          "curve": "constant"
+        },
+        {
+          "frame": 0.25,
+          "value": -120,
+          "curve": "constant"
+        },
+        {
+          "frame": 0.3333333333333333,
+          "value": -160,
+          "curve": "constant"
+        },
+        {
+          "frame": 0.4166666666666667,
+          "value": -200,
+          "curve": "constant"
+        },
+        {
+          "frame": 0.5,
+          "value": -240,
+          "curve": "constant"
+        },
+        {
+          "frame": 0.5833333333333334,
+          "value": -280,
+          "curve": "constant"
+        },
+        {
+          "frame": 0.6666666666666666,
+          "value": -320,
+          "curve": "constant"
+        },
+        {
+          "frame": 0.75,
+          "value": -360
+        }
+      ]
+    }
+  },
+  "events": []
+}

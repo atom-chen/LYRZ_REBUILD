@@ -1,0 +1,24 @@
+{
+  "name": "wegamebuilder",
+  "version": "0.0.1",
+  "description": "The package template for getting started.",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/wegamebuilder/open": {
+      "message": "wegamebuilder:open"
+    },
+    "i18n:MAIN_MENU.package.title/wegamebuilder/hello": {
+      "message": "wegamebuilder:say-hello"
+    }
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^0.18.1"
+  },
+  "dependencies": {
+    "imagemin": "^6.0.0",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^6.0.0",
+    "uglify-js": "^3.4.9"
+  }
+}

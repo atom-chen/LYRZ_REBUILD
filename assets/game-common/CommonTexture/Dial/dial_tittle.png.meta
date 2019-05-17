@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "bcabafc4-01f3-4aa8-8bae-6c4e51933990",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "dial_tittle": {
+      "ver": "1.0.3",
+      "uuid": "8af37449-c833-4ffd-b4cc-8939da7ad210",
+      "rawTextureUuid": "bcabafc4-01f3-4aa8-8bae-6c4e51933990",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 522,
+      "height": 183,
+      "rawWidth": 522,
+      "rawHeight": 183,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

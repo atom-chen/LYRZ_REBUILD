@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "1340268f-e5d7-4a75-bf6c-961d5f032b71",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "10技能界面_装备": {
+      "ver": "1.0.3",
+      "uuid": "a4ce73ea-bf6f-43be-b357-4e8c5933321f",
+      "rawTextureUuid": "1340268f-e5d7-4a75-bf6c-961d5f032b71",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 640,
+      "height": 1386,
+      "rawWidth": 640,
+      "rawHeight": 1386,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "436eafb1-ef8c-4c2e-906b-1156d79068b5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "地图假图02": {
+      "ver": "1.0.3",
+      "uuid": "791b6d64-2565-4f98-b190-9c36dcdcca5a",
+      "rawTextureUuid": "436eafb1-ef8c-4c2e-906b-1156d79068b5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2600,
+      "height": 3200,
+      "rawWidth": 2600,
+      "rawHeight": 3200,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

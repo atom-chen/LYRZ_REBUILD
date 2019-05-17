@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "cloudRightAnim2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -934,
+            385
+          ]
+        },
+        {
+          "frame": 3,
+          "value": [
+            915,
+            385
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

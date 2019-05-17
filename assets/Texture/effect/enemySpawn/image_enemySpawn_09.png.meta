@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "fc106b4c-7ba4-4cd5-8c84-459d22af643d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "image_enemySpawn_09": {
+      "ver": "1.0.3",
+      "uuid": "bc4fa846-8528-4295-b4a7-540a28e052cc",
+      "rawTextureUuid": "fc106b4c-7ba4-4cd5-8c84-459d22af643d",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 236,
+      "height": 217,
+      "rawWidth": 236,
+      "rawHeight": 217,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
