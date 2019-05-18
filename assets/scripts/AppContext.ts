@@ -1,9 +1,6 @@
 import { UIManager } from "../game-common/Script/UI/UIManager";
 import { PlayerData } from "./data/PlayerData";
 import { UserData } from "../game-common/Script/GameCommon/UserData";
-import { Util } from "./tool/Util";
-import { WorldEventManager } from "../game-common/Script/GameCommon/WorldEventManager";
-import { WorldEventType } from "../game-common/Script/GameCommon/WorldEventType";
 import { UIPath } from "./common/UIPath";
 
 const { ccclass, property } = cc._decorator;
@@ -24,10 +21,6 @@ export class AppContext extends cc.Component {
         return this.uiManagerScript;
     }
 
-    private powerTimer: number = 0;
-
-    private powerTime: number = 10;
-
     public onLoad(): void {
         window.appContext = this;
         cc.game.addPersistRootNode(this.node);
@@ -36,23 +29,6 @@ export class AppContext extends cc.Component {
 
     public start(): void {
         appContext.uiManager.showBoard(UIPath.BoardStart);
-    }
-
-    public update(dt: number): void {
-        if (!PlayerData.init) {
-            return;
-        }
-        if (appContext.playerData.power >= gameManager.powerMax) {
-            appContext.playerData.power = gameManager.powerMax;
-            this.powerTimer = 0;
-            return;
-        }
-        if (this.powerTimer < this.powerTime) {
-            this.powerTimer += dt;
-        } else {
-            this.playerData.power += 1;
-            this.powerTimer = 0;
-        }
     }
 
     public get playerData(): PlayerData {

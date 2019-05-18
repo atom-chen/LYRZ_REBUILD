@@ -19,6 +19,7 @@ export class BoardGame extends BaseUI {
 
     public onEnable(): void {
         this.initDoorAnim();
+
         this.delayShowBoard();
     }
 
