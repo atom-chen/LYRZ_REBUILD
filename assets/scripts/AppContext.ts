@@ -1,5 +1,4 @@
 import { UIManager } from "../game-common/Script/UI/UIManager";
-import { SpriteManager } from "./game/SpriteManager";
 import { PlayerData } from "./data/PlayerData";
 import { UserData } from "../game-common/Script/GameCommon/UserData";
 import { Util } from "./tool/Util";
