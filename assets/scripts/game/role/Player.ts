@@ -13,7 +13,6 @@ export default class Player extends Role {
     }
 
     public onDisable(): void {
-
     }
 
     //交互

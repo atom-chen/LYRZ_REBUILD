@@ -3262,7 +3262,7 @@
         "__id__": 95
       }
     ],
-    "_active": false,
+    "_active": true,
     "_level": 3,
     "_components": [],
     "_prefab": {
@@ -3700,7 +3700,7 @@
       "__id__": 1
     },
     "_enabled": true,
-    "delayOpenDoorTime": 1.2,
+    "delayOpenDoorTime": 1.5,
     "doorAnim": {
       "__id__": 103
     },
