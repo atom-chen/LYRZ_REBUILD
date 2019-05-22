@@ -1,12 +1,14 @@
-import { ITouch } from "../../Interface/ITouch";
+import Toucher from "../../Interactive/Toucher";
 
 const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class Move extends cc.Component {
-    private iTouch: ITouch = null;
+    @property(Toucher)
+    public iTouch: ITouch = null;
+
     private curDirec: cc.Vec2 = null;
-    private speed: number = 10;
+    private speed: number = 100;
 
     public onLoad(): void {
     }
@@ -16,7 +18,7 @@ export default class Move extends cc.Component {
     }
 
     private computeMove(delTime: number): void {
-        this.curDirec = cc.Vec2.UP// this.iTouch.getDirection();
+        this.curDirec = this.iTouch.getDirection();
         if (this.curDirec && this.curDirec != cc.Vec2.ZERO) {
             this.node.setPosition(this.node.position.add(this.curDirec.mul(this.speed * delTime)));
         }
